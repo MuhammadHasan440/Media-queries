@@ -1,0 +1,28 @@
+.nave{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+}
+#iconn{
+    font-size: 30px;
+    color: red;
+    display: none;
+}
+@media(max-width:500px){
+    #iconn{
+        display: block;
+    
+    }
+    ul{
+        display: none;
+        color: white;
+    }
+    body{
+        background-color: black;
+    }
+}
